@@ -26,6 +26,7 @@ public class FloodFill {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == 1 && !visited[i][j]) {
                     int area = floodFill(grid, i, j);
+                    System.out.println(area);
                     areas.add(area);
                 }
             }
