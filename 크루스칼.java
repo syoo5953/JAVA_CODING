@@ -29,15 +29,7 @@ public class 크루스칼 {
             }
 
             Arrays.sort(costs, (a, b) -> Integer.compare(a[2], b[2]));
-
-            // find(parent, costs[1][0]);
-            // System.out.println();
-            // find(parent, costs[1][1]);
-
-            // for(int i = 0; i < parent.length; i++) {
-            // System.out.print(parent[i] + ", ");
-            // }
-            // System.out.println();
+            
             for (int i = 0; i < costs.length; i++) {
                 if (find(parent, costs[i][0]) != find(parent, costs[i][1])) {
                     union(parent, costs[i][0], costs[i][1]);
