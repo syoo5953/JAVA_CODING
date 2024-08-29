@@ -49,6 +49,7 @@ public class 네중문_topping2 {
                 // 현재 조합에서 최대 만족한 사람 수를 업데이트
                 maxSatisfied = Math.max(maxSatisfied, satisfiedCount);
             }
+            break;
         }
 
         return maxSatisfied;
