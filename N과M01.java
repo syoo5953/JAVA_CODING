@@ -22,10 +22,10 @@ public class N과M01 {
 
     public static void backtrack(int depth) {
         if (depth == M) {
-            for (int i = 0; i < M; i++) {
-                System.out.print(selected[i] + " ");
-            }
-            System.out.println();
+            // for (int i = 0; i < M; i++) {
+            //     System.out.print(selected[i] + " ");
+            // }
+            // System.out.println();
             return;
         }
 
